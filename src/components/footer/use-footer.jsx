@@ -35,11 +35,11 @@ export const UseFooter = () => {
               <h4>Quick Links</h4>
               <ul>
                 <li>
-                  <a href="/booking">get a quote</a>
+                  <NavLink to="booking">get a quote</NavLink>
                 </li>
 
                 <li>
-                  <a href="/terms-condition">Terms & Condition</a>
+                  <NavLink to="terms-condition">Terms & Condition</NavLink>
                 </li>
               </ul>
             </div>
@@ -60,16 +60,16 @@ export const UseFooter = () => {
               <h4>Dkaplan Sky Center</h4>
               <ul>
                 <li>
-                  <a href="/tours">tours</a>
+                  <NavLink to="tours">tours</NavLink>
                 </li>
                 <li>
-                  <a href="/destinations">destinations</a>
+                  <NavLink to="destinations">destinations</NavLink>
                 </li>
                 <li>
-                  <a href="/photo-galleries">gallery</a>
+                  <NavLink to="photo-galleries">gallery</NavLink>
                 </li>
                 <li>
-                  <a href="/packages">packages</a>
+                  <NavLink to="packages">packages</NavLink>
                 </li>
               </ul>
             </div>
