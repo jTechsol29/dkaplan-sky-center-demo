@@ -128,7 +128,7 @@ const HomePage = () => {
             <Col md="8">
               <h5 className="title">CALL TO ACTION</h5>
               <h2 className="heading">
-                READY FOR UNFORGATABLE TRAVEL. REMEMBER US!
+                READY FOR UNFORGETTABLE TRAVEL. REMEMBER US!
               </h2>
               <p className="text">
                 At Dkaplan sky center, we can give you and your love ones
