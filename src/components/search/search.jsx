@@ -39,10 +39,25 @@ const DestinationSearch = () => {
                       "Paris, France",
                       "Johannesburg, South Africa",
                       "California, USA",
+                      "Abuja, Nigeria",
                       "Florida, USA",
+                      "Beijing, China",
                       "Capetown, South Africa",
                       "Madrid, Spain",
                       "Kigali, Rwanda",
+                      "Cape town, South Africa",
+                      "London, England",
+                      "Berlin, Germany",
+                      "Lagos, Nigeria",
+                      "Maryland, USA",
+                      "Kuala Lumpur, Malaysia",
+                      "Singapore city, Singapore",
+                      "Beijing, China",
+                      "Oslo, Norway",
+                      "Rome, Italy",
+                      "Barcelona, Spain",
+                      "Machester, England",
+                      "Nairobi, Kenya",
                     ]}
                   />
                 </div>
@@ -81,13 +96,16 @@ const DestinationSearch = () => {
                     label="Guest"
                     onSelect={selectedGuest}
                     options={[
-                      "1 adult, 0 children",
-                      "1 adults, 2 children",
-                      "1 adults, 3 children",
-                      "1 adults, 1 children",
-                      "2 adults, 1 children",
-                      "	2 adults, 2 children",
-                      "2 adults, 3 children",
+                      "1 passenger",
+                      "2 passengers",
+                      "3 passengers",
+                      "4 passengers",
+                      "5 passengers",
+                      "6 passengers",
+                      "7 passengers",
+                      "8 passengers",
+                      "9 passengers",
+                      "10 passengers",
                     ]}
                   />
                 </div>

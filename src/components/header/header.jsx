@@ -80,6 +80,13 @@ export const Header = () => {
                 <NavLink className="nav-link" to="contact-us">
                   CONTACT
                 </NavLink>
+                {open ? (
+                  <NavLink className="mobileBtn me-2 btn-sm" to="booking">
+                    Get A Quote
+                  </NavLink>
+                ) : (
+                  ""
+                )}
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>

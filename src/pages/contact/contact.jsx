@@ -93,11 +93,6 @@ const ContactUs = () => {
                       <i className="bi bi-phone me-1"></i>
                       +27 63 461 9544
                     </button>
-
-                    <button type="button" className="btn btn-light me-2 btn-sm">
-                      <i className="bi bi-telephone me-1"></i>
-                      +27 63 461 9544
-                    </button>
                   </div>
                 </Card.Body>
               </Card>

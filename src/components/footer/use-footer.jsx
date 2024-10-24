@@ -44,7 +44,7 @@ export const UseFooter = () => {
               </ul>
             </div>
             <div className="footer-col">
-              <h4>Visit us</h4>
+              <h4>Contact us</h4>
               <ul className="row">
                 <li>
                   <p>149 Pritchard St,</p>

@@ -1,13 +1,7 @@
 import React from "react";
 import { Accordion, Form } from "react-bootstrap";
 import "../tours/tour.css";
-import {
-  location,
-  Categories,
-  Duration,
-  PriceRange,
-  Ratings,
-} from "../../utils/data";
+import { location, Categories, Duration, Ratings } from "../../utils/data";
 
 const Filters = () => {
   return (
@@ -63,25 +57,6 @@ const Filters = () => {
                     id={duration}
                     label={duration}
                     value={duration}
-                  />
-                );
-              })}
-            </Accordion.Body>
-          </Accordion.Item>
-        </Accordion>
-
-        <Accordion defaultActiveKey="0">
-          <Accordion.Item eventKey="0">
-            <Accordion.Header>Price </Accordion.Header>
-            <Accordion.Body>
-              {PriceRange.map((price, index) => {
-                return (
-                  <Form.Check
-                    key={index}
-                    type="checkbox"
-                    id={price}
-                    label={price}
-                    value={price}
                   />
                 );
               })}

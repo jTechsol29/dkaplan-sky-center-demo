@@ -132,7 +132,7 @@ const HomePage = () => {
               </h2>
               <p className="text">
                 At Dkaplan sky center, we can give you and your love ones
-                undorgatable travel experience that you cannot get anywhere.
+                unforgettable travel experience that you cannot get anywhere.
                 Ready for it ? Contact us we will make it happen.
               </p>
             </Col>

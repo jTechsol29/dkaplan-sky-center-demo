@@ -37,14 +37,14 @@ const Privacy = () => {
                         1. Booking and Reservations
                       </h5>
                       <p>
-                        **Booking Process:** Reservations can be made through
-                        our website, in-person, or over the phone. A booking is
+                        *Booking Process: Reservations can be made through our
+                        website, in-person, or over the phone. A booking is
                         confirmed once we receive the required deposit or full
-                        payment. - **Deposit Requirements:** A non-refundable
-                        deposit is required to secure your booking. - **Final
-                        Payment:** The remaining balance must be paid 72 hours
-                        before departure. Failure to make the final payment on
-                        time may result in the cancellation of your reservation.
+                        payment. Deposit Requirements: A non-refundable deposit
+                        is required to secure your booking. Final Payment: The
+                        remaining balance must be paid 72 hours before
+                        departure. Failure to make the final payment on time may
+                        result in the cancellation of your reservation.
                       </p>
                     </div>
 
@@ -53,9 +53,9 @@ const Privacy = () => {
                       <p>
                         * All prices are in rand and are subject to change
                         without prior notice due to factors beyond our control,
-                        such as fluctuations in taxes or fuel surcharges. - Once
-                        a booking is confirmed, we guarantee the price except
-                        for changes related to government taxes or fees.
+                        such as fluctuations in taxes or fuel surcharges. Once a
+                        booking is confirmed, we guarantee the price except for
+                        changes related to government taxes or fees.
                       </p>
                     </div>
 
@@ -64,18 +64,18 @@ const Privacy = () => {
                         3. Cancellations and Refunds
                       </h5>
                       <p>
-                        **Cancellation by Client:** If you need to cancel your
+                        *Cancellation by Client: If you need to cancel your
                         trip, you must inform us in writing. Cancellation fees
                         will apply as follows: - [Cancellation within 1 day: No
                         refund] - [Cancellation between 3–5 days: Refund minus
                         deposit] - [Cancellation more than 14 days: Full refund
-                        minus admin fees] - **Cancellation by Travel Agency:**
-                        We reserve the right to cancel a booking under
+                        minus admin fees] -Cancellation by Travel Agency: We
+                        reserve the right to cancel a booking under
                         circumstances beyond our control. In such cases, you
                         will be entitled to a full refund or an alternative trip
-                        option. - **Non-refundable Services:** Certain services
-                        like flights or special packages may be non-refundable.
-                        We will inform you of these at the time of booking.
+                        option. Non-refundable Services: Certain services like
+                        flights or special packages may be non-refundable. We
+                        will inform you of these at the time of booking.
                       </p>
                     </div>
 
@@ -84,13 +84,13 @@ const Privacy = () => {
                         4. Changes to Bookings
                       </h5>
                       <p>
-                        **Changes by Client:** If you request changes to your
+                        *Changes by Client: If you request changes to your
                         booking (dates, destinations, accommodations),
                         additional fees may apply, depending on availability and
-                        the policies of service providers. - **Changes by Travel
-                        Agency:** We may make minor changes to your itinerary
-                        due to unforeseen circumstances. We will notify you as
-                        soon as possible.
+                        the policies of service providers. Changes by Travel
+                        Agency: We may make minor changes to your itinerary due
+                        to unforeseen circumstances. We will notify you as soon
+                        as possible.
                       </p>
                     </div>
 
@@ -112,10 +112,10 @@ const Privacy = () => {
                         6. Travel Documents
                       </h5>
                       <p>
-                        **Passports and Visas:** You are responsible for
-                        ensuring that you have the appropriate travel documents,
+                        *Passports and Visas: You are responsible for ensuring
+                        that you have the appropriate travel documents,
                         including valid passports, visas, and any required
-                        health certifications. - **Vaccinations:** It is your
+                        health certifications. Vaccinations: It is your
                         responsibility to check and meet any health and
                         vaccination requirements for your destination.
                       </p>
@@ -124,14 +124,14 @@ const Privacy = () => {
                     <div className="mb-3 ">
                       <h5 className="font-bold h5 m-0 py-2">7. Liability</h5>
                       <p>
-                        **Responsibility:** We act only as an intermediary
-                        between you and the service providers (hotels, airlines,
+                        *Responsibility: We act only as an intermediary between
+                        you and the service providers (hotels, airlines,
                         transportation services, etc.). We are not responsible
                         for any loss, injury, or damage arising from these
-                        services. **Force Majeure:** We are not liable for
-                        delays, cancellations, or other disruptions caused by
-                        events outside of our control, such as natural
-                        disasters, strikes, or political unrest.
+                        services. Force Majeure: We are not liable for delays,
+                        cancellations, or other disruptions caused by events
+                        outside of our control, such as natural disasters,
+                        strikes, or political unrest.
                       </p>
                     </div>
 
@@ -202,7 +202,7 @@ const Privacy = () => {
                         13. Privacy Policy
                       </h5>
                       <p>
-                        -No personal information will be disclosed to third
+                        * No personal information will be disclosed to third
                         parties without the user’s permission or due process,
                         however, Dkaplan Sky center may share personal
                         information with business partners. -Dkaplan Sky center
@@ -217,7 +217,7 @@ const Privacy = () => {
                         such communications; - By using our services, you agree
                         to the collection and use of your personal information
                         in accordance with our privacy policy, which can be
-                        found [link to privacy policy].
+                        found.
                       </p>
                     </div>
 

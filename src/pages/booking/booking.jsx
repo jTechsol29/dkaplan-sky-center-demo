@@ -82,9 +82,8 @@ const Booking = () => {
                 <div className="form-title px-4  py-3">
                   <h4 className="h1 font-bold m-0"> Get a Quote</h4>
                   <h5 className="py-4 h6 opacity-50 m-0">
-                    We can help you plan and book your next vacation. Call{" "}
-                    <span className="font-bold text-dark">+27(63)461-9544</span>{" "}
-                    or fill out the form below to enquire online with us today.
+                    We can help you plan and book your next vacation. Fill out
+                    the form below to enquire online with us today.
                   </h5>
                 </div>
 
