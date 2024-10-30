@@ -1,13 +1,3 @@
-// destinations img
-import tour4 from "../assets/images/tour/Tokyo.png";
-import tour5 from "../assets/images/tour/bali-1.png";
-import tour6 from "../assets/images/tour/bangkok.png";
-import tour7 from "../assets/images/tour/cancun.png";
-import tour8 from "../assets/images/tour/nah-trang.png";
-import tour9 from "../assets/images/tour/phuket.png";
-import tour101 from "../assets/images/tour/paris.png";
-import tour111 from "../assets/images/tour/malaysia.png";
-
 import tour14 from "../assets/images/banner/banner5.jpg";
 import tour15 from "../assets/images/banner/banner19.jpg";
 import tour16 from "../assets/images/banner/banner6.jpg";
@@ -16,12 +6,6 @@ import tour18 from "../assets/images/banner/banner8.jpg";
 import tour19 from "../assets/images/banner/banner9.jpg";
 import tour20 from "../assets/images/banner/banner10.jpg";
 import tour21 from "../assets/images/banner/banner11.jpg";
-
-// populars img
-
-import Singapore from "../assets/images/popular/Discover Singapore.png";
-import Kiwiana from "../assets/images/popular/Kiwiana Panorama.jpg";
-import Quito from "../assets/images/popular/Anchorage To Quito.jpg";
 
 import BeyondBarcelona1 from "../assets/images/tour/popular/barce1.webp";
 import London1 from "../assets/images/tour/popular/london1.webp";
