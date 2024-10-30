@@ -15,6 +15,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "../home/home.css";
 
 import { destinationsData, popularsData } from "../../utils/data";
+import SiteBanner from "../../components/new/SiteBanner";
 
 const HomePage = () => {
   var settings = {
@@ -79,7 +80,10 @@ const HomePage = () => {
           <Row>
             <Col md="12">
               <div className="main_heading">
-                <h1> Top Destination For Your Next Vacation </h1>
+                <h1 className="destination">
+                  {" "}
+                  Peak Destination For Your Next Holiday{" "}
+                </h1>
               </div>
             </Col>
           </Row>
@@ -105,7 +109,7 @@ const HomePage = () => {
           <Row>
             <Col md="12">
               <div className="main_heading">
-                <h1> Popular Activities </h1>
+                <h1 className="destination"> Feature Activities </h1>
               </div>
             </Col>
           </Row>
@@ -131,9 +135,9 @@ const HomePage = () => {
                 READY FOR UNFORGETTABLE TRAVEL. REMEMBER US!
               </h2>
               <p className="text">
-                At Dkaplan sky center, we can give you and your love ones
-                unforgettable travel experience that you cannot get anywhere.
-                Ready for it ? Contact us we will make it happen.
+                Kayzoe Tours can give you and your family unforgettable travel
+                experience that you cannot get anywhere. Ready for it ? Contact
+                us today.
               </p>
             </Col>
             <Col md="4" className="text-center mt-3 mt-md-0">

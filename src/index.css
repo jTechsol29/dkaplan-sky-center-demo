@@ -3,7 +3,7 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 :root {
-  --primaryClr: #255094; /* #E4797C*/ /* old #fd9486 */
+  --primaryClr: #22802b; /* #E4797C*/ /* old #fd9486    #3E9B8D   #3d7068-g*/
   --primaryClr2: rgb(199, 141, 35);
   --secondaryClr: #fffaf9;
   --bgClr: #f8f9fd;
@@ -16,8 +16,9 @@
   --bodyText: 15px;
   --subTitle: 18px;
   --heading: 24px;
-  --fontFamily: "Poppins", sans-serif;
-  --fontFamily1: "Libre Baskerville", serif;
+
+  --fontFamily: "Montserrat", sans-serif;
+  --fontFamily1: "Nunito", sans-serif;
 }
 
 html,

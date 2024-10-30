@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 
+import CompanyLogo from "../../assets/images/logo/kayzoe-logo.png";
+
 import Breadcrumbs from "../../components/breadcrumbs/breadcrumb";
 import { Col, Container, Row, Card } from "react-bootstrap";
 
 import "../booking/booking.css";
-import CompanyLogo from "../../assets/images/logo/Dkap Logo jpeg.jpg";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -80,10 +81,14 @@ const Booking = () => {
             <Col md="9" lg="9">
               <div className="booking-form-warp border rounded-1 bg-white shadow-lg">
                 <div className="form-title px-4  py-3">
-                  <h4 className="h1 font-bold m-0"> Get a Quote</h4>
+                  <h4 className="h1 font-bold m-0 booking-header-title">
+                    {" "}
+                    Get a Quote
+                  </h4>
                   <h5 className="py-4 h6 opacity-50 m-0">
-                    We can help you plan and book your next vacation. Fill out
-                    the form below to enquire online with us today.
+                    Fill out the form to get a quote for your desire holiday
+                    destination. All fields marked with an asterisk (*) are
+                    required.
                   </h5>
                 </div>
 
@@ -291,9 +296,11 @@ const Booking = () => {
             <Col md="3" lg="3">
               <div className="col-12 mb-3">
                 <Card className="card-info p-0 shadow-lg bg-light">
-                  <Card.Header>
+                  <Card.Header className="package-left-header-card">
                     {" "}
-                    <h6 className="font-bold mt-2">Email Support ?</h6>{" "}
+                    <h6 className="font-bold mt-2 package-left-header">
+                      Email Support ?
+                    </h6>{" "}
                   </Card.Header>
                   <Card.Body className="pb-0 py-4">
                     <img
@@ -302,11 +309,11 @@ const Booking = () => {
                       alt="logo"
                     />
                     <div className="mt-4 mb-3">
-                      <p className="card-text d-flex-wrap">
+                      <p className="card-text d-flex-wrap package-left-header-text">
                         Please tell us how we can help, send your request for
                         support to{" "}
-                        <span className="text-primary fw-2">
-                          booking@dkapskycenter.co.za
+                        <span className="text-primary fw-2 package-left-header-text package-left-header-text-email">
+                          help@kayzoetours.co.za
                         </span>{" "}
                         and be sure to include your full names and contact
                         information. Email request are typically answered within
@@ -314,15 +321,17 @@ const Booking = () => {
                       </p>
                     </div>
                   </Card.Body>
-                  <Card.Footer className="d-flex justify-content-between py-4"></Card.Footer>
+                  <Card.Footer className="d-flex "></Card.Footer>
                 </Card>
               </div>
 
               <div className="col-12">
                 <Card className="card-info p-0 shadow-lg bg-light">
-                  <Card.Header>
+                  <Card.Header className="package-left-header-card">
                     {" "}
-                    <h6 className="font-bold mt-2">Telephone Support ?</h6>{" "}
+                    <h6 className="font-bold mt-2 package-left-header">
+                      Telephone Support ?
+                    </h6>{" "}
                   </Card.Header>
                   <Card.Body className="pb-0 py-4">
                     <img
@@ -331,12 +340,13 @@ const Booking = () => {
                       alt="logo"
                     />
                     <div className="mt-4 mb-3">
-                      <p className="card-text d-flex-wrap">
+                      <p className="card-text d-flex-wrap package-left-header-text">
                         Please have your booking / quote number and all relevant
                         information pertaining to your problem ready when
-                        calling. All support services are available via phone at{" "}
-                        <span className="text-primary fw-2">
-                          +27 63 461 9544
+                        calling. All support services are available to assist
+                        you via phone at{" "}
+                        <span className="text-primary fw-2 package-left-header-text-phone">
+                          078 338 4409
                         </span>{" "}
                       </p>
                     </div>

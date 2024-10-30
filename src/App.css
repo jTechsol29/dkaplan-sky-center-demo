@@ -15,7 +15,7 @@
 
 .primaryBtn:hover {
   transform: translateY(-3px);
-  background-color: #5b93ee;
+  background-color: #66f485;
   color: var(--white);
 }
 
@@ -36,7 +36,29 @@
 
 .quoteBtn:hover {
   transform: translateY(-3px);
-  background-color: #5b93ee;
+  background-color: #66f485;
+  color: var(--white);
+}
+
+.bannerBtn {
+  background-color: var(--primaryClr);
+  padding: 10px 18px;
+  font-size: var(--bodyText);
+  color: var(--white);
+  text-align: center;
+  position: relative;
+  letter-spacing: 0.5px;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  font-weight: 400;
+  width: 20%;
+  border-radius: 3px;
+  border: none;
+}
+
+.bannerBtn:hover {
+  transform: translateY(-3px);
+  background-color: #66f485;
   color: var(--white);
 }
 
@@ -70,7 +92,7 @@
   font-size: var(--heading);
   color: var(--black);
   font-weight: 500;
-  font-family: "Poppins";
+  font-family: "Montserrat";
 }
 
 .slick_slider .slick-arrow {
@@ -148,6 +170,14 @@
   display: none;
 }
 
+.span2 {
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+.destination {
+  font-family: "Montserrat";
+}
 @media only screen and (max-width: 600px) {
   .slick_slider .slick-arrow {
     display: none !important;

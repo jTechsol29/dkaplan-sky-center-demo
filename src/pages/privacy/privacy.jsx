@@ -5,18 +5,15 @@ import Breadcrumbs from "../../components/breadcrumbs/breadcrumb";
 
 import { Col, Container, Row } from "react-bootstrap";
 
-const Privacy = () => {
+const PrivacyPolicy = () => {
   useEffect(() => {
-    document.title = "Terms & Conditions ";
+    document.title = "Privacy Policy ";
     window.scroll(0, 0);
   }, []);
 
   return (
     <>
-      <Breadcrumbs
-        title="Terms and Condition"
-        pagename="Terms and Conditions"
-      />
+      <Breadcrumbs title="Privacy Policy" pagename="Privacy Policy" />
 
       <section className="booking-section py-5 bg-light ">
         <Container>
@@ -24,215 +21,183 @@ const Privacy = () => {
             <Col md="12" lg="12">
               <div className="booking-form-warp border rounded-1 bg-light shadow-lg px-4">
                 <div className="form-title px-4  py-3">
-                  <h4 className="h3 font-bold m-0 text-center mt-3">
+                  <h4 className="h3 font-bold m-0 text-center mt-3 cancellation">
                     {" "}
-                    Dkaplan sky center Terms, Conditions & Cancellation
+                    Kayzoe Tours, Privacy Policy
                   </h4>
                 </div>
 
                 <div className="row">
                   <div className="col-sm-12 mb-3 m-0">
-                    <div className="mb-3 py-4">
-                      <h5 className="font-bold h5 m-0 py-2">
-                        1. Booking and Reservations
+                    <div className="">
+                      <h5 className="font-bold h5 m-0 py-2 cancellation">
+                        Privacy Policy
                       </h5>
-                      <p>
-                        *Booking Process: Reservations can be made through our
-                        website, in-person, or over the phone. A booking is
-                        confirmed once we receive the required deposit or full
-                        payment. Deposit Requirements: A non-refundable deposit
-                        is required to secure your booking. Final Payment: The
-                        remaining balance must be paid 72 hours before
-                        departure. Failure to make the final payment on time may
-                        result in the cancellation of your reservation.
+                      <p className="mx-auto mb-2">
+                        Kayzoe Tours (“we,” “our,” or “the Company”) is
+                        committed to protecting the privacy and security of the
+                        personal information our customers (“you” or
+                        “Travelers”) provide to us. This Privacy Policy explains
+                        how we collect, use, and protect your data. By using our
+                        services, you agree to this Privacy Policy.
                       </p>
                     </div>
 
-                    <div className="mb-3 ">
-                      <h5 className="font-bold h5 m-0 py-2">2. Pricing</h5>
-                      <p>
-                        * All prices are in rand and are subject to change
-                        without prior notice due to factors beyond our control,
-                        such as fluctuations in taxes or fuel surcharges. Once a
-                        booking is confirmed, we guarantee the price except for
-                        changes related to government taxes or fees.
-                      </p>
-                    </div>
-
-                    <div className="mb-3 ">
-                      <h5 className="font-bold h5 m-0 py-2">
-                        3. Cancellations and Refunds
+                    <div className="">
+                      <h5 className="font-bold h5 m-0 py-2 cancellation">
+                        1. Information We Collect
                       </h5>
-                      <p>
-                        *Cancellation by Client: If you need to cancel your
-                        trip, you must inform us in writing. Cancellation fees
-                        will apply as follows: - [Cancellation within 1 day: No
-                        refund] - [Cancellation between 3–5 days: Refund minus
-                        deposit] - [Cancellation more than 14 days: Full refund
-                        minus admin fees] -Cancellation by Travel Agency: We
-                        reserve the right to cancel a booking under
-                        circumstances beyond our control. In such cases, you
-                        will be entitled to a full refund or an alternative trip
-                        option. Non-refundable Services: Certain services like
-                        flights or special packages may be non-refundable. We
-                        will inform you of these at the time of booking.
+                      <p className="mx-auto mb-2">
+                        Personal Information: This includes details necessary
+                        for booking and customizing your travel experience, such
+                        as: Name, email address, phone number. Passport
+                        information, visa status, and nationality.Payment
+                        details (credit card information is securely processed
+                        via third-party providers and not stored by us).
+                        Health-related information, such as dietary preferences
+                        or medical conditions, if provided voluntarily for
+                        special accommodations.Automatically Collected Data:
+                        When you visit our website, certain data may be
+                        collected automatically, including: IP address, browser
+                        type, and device information.Cookies and tracking
+                        technologies to enhance website functionality and
+                        personalize your experience.
                       </p>
                     </div>
 
-                    <div className="mb-3 ">
-                      <h5 className="font-bold h5 m-0 py-2">
-                        4. Changes to Bookings
+                    <div className="">
+                      <h5 className="font-bold h5 m-0 py-2 cancellation">
+                        How We Use Your Information
                       </h5>
-                      <p>
-                        *Changes by Client: If you request changes to your
-                        booking (dates, destinations, accommodations),
-                        additional fees may apply, depending on availability and
-                        the policies of service providers. Changes by Travel
-                        Agency: We may make minor changes to your itinerary due
-                        to unforeseen circumstances. We will notify you as soon
-                        as possible.
+                      <p className="mx-auto mb-2">
+                        Service Delivery: We use your information to book travel
+                        arrangements, communicate tour details, provide
+                        personalized experiences, and handle customer service
+                        inquiries. Payment Processing: Payment information is
+                        used only to process bookings and related transactions
+                        securely.Customer Communications: We may use your
+                        contact information to provide updates, confirmations,
+                        and information relevant to your trip.Marketing: With
+                        your consent, we may send you promotional materials,
+                        offers, and travel tips. You can opt out at any time by
+                        using the unsubscribe link in our emails.
                       </p>
                     </div>
 
-                    <div className="mb-3 ">
-                      <h5 className="font-bold h5 m-0 py-2">
-                        5. Travel Insurance
+                    <div className="">
+                      <h5 className="font-bold h5 m-0 py-2 cancellation">
+                        Data Sharing and Disclosure
                       </h5>
-                      <p>
-                        *We highly recommend that all clients purchase
-                        comprehensive travel insurance, which covers trip
-                        cancellation, medical expenses, and personal liability.
-                        Dkaplan Sky center will not be responsible for any costs
-                        incurred as a result of a lack of travel insurance.
+                      <p className="mx-auto mb-2">
+                        Third-Party Service Providers: We work with trusted
+                        third-party partners to provide services, such as
+                        accommodation providers, airlines, and payment
+                        processors. These partners only receive information
+                        necessary to fulfill their service roles and are
+                        required to protect your information. Legal Compliance:
+                        We may disclose your information if required by law or
+                        if necessary to protect our rights, safety, or property,
+                        or that of others.
                       </p>
                     </div>
 
-                    <div className="mb-3 ">
-                      <h5 className="font-bold h5 m-0 py-2">
-                        6. Travel Documents
+                    <div className="">
+                      <h5 className="font-bold h5 m-0 py-2 cancellation">
+                        Security of Your Information
                       </h5>
-                      <p>
-                        *Passports and Visas: You are responsible for ensuring
-                        that you have the appropriate travel documents,
-                        including valid passports, visas, and any required
-                        health certifications. Vaccinations: It is your
-                        responsibility to check and meet any health and
-                        vaccination requirements for your destination.
+                      <p className="mx-auto mb-2">
+                        Data Protection: We use administrative, technical, and
+                        physical safeguards to protect your data against
+                        unauthorized access, loss, misuse, and alteration.
+                        Secure Payment Processing: Payment transactions are
+                        encrypted and processed through trusted, PCI-compliant
+                        third-party payment providers. We do not store credit
+                        card information on our servers. Retention: We retain
+                        personal information only as long as needed to fulfill
+                        the purposes described in this Privacy Policy or as
+                        required by law.
                       </p>
                     </div>
 
-                    <div className="mb-3 ">
-                      <h5 className="font-bold h5 m-0 py-2">7. Liability</h5>
-                      <p>
-                        *Responsibility: We act only as an intermediary between
-                        you and the service providers (hotels, airlines,
-                        transportation services, etc.). We are not responsible
-                        for any loss, injury, or damage arising from these
-                        services. Force Majeure: We are not liable for delays,
-                        cancellations, or other disruptions caused by events
-                        outside of our control, such as natural disasters,
-                        strikes, or political unrest.
-                      </p>
-                    </div>
-
-                    <div className="mb-3 ">
-                      <h5 className="font-bold h5 m-0 py-2">
-                        8. Health and Safety
+                    <div className="">
+                      <h5 className="font-bold h5 m-0 py-2 cancellation">
+                        Your Privacy Rights
                       </h5>
-                      <p>
-                        *You are responsible for understanding the health and
-                        safety risks at your destination. We advise checking
-                        official government travel advisories before departure.
+                      <p className="mx-auto mb-2">
+                        Access and Correction: You have the right to request
+                        access to, correction of, or deletion of your personal
+                        information. Please contact us at
+                        support@kayzoetours.co.za to make such requests.
+                        Marketing Preferences: You can opt out of marketing
+                        emails at any time by clicking the “unsubscribe” link
+                        included in each email. Data Portability: Where
+                        applicable by law, you may request a copy of your
+                        personal information in a structured, machine-readable
+                        format.
                       </p>
                     </div>
 
-                    <div className="mb-3 ">
-                      <h5 className="font-bold h5 m-0 py-2">9. Behavior</h5>
-                      <p>
-                        *We reserve the right to refuse service or cancel
-                        bookings for any traveler whose behavior is disruptive,
-                        illegal, or unsafe. In such cases, no refund will be
-                        provided.
-                      </p>
-                    </div>
-
-                    <div className="mb-3 ">
-                      <h5 className="font-bold h5 m-0 py-2">10. Voucher</h5>
-                      <p>
-                        *When you purchase a voucher, you’re getting a truly
-                        flexible travel gift Voucher. Your voucher enables you
-                        to make bookings at any time, it has 24-months validity,
-                        you can contact us to get a quote for a booking, After
-                        we have quoted you, You can redeem voucher to make
-                        payment, If your voucher does not cover the total amount
-                        you will have to make other alternative payment method
-                        to complete the payment before your bookings can be
-                        confirmed, If you have credit left on your voucher, You
-                        can save this for your next trip. You can gift a Voucher
-                        to any one by using the same method and email it to your
-                        recipient.
-                      </p>
-                    </div>
-
-                    <div className="mb-3 ">
-                      <h5 className="font-bold h5 m-0 py-2">11. Payment</h5>
-                      <p>
-                        *Before you can use our payment portal, please note you
-                        will request for a quote. After you have accepted our
-                        quote we will generate a reference number which will be
-                        use in the payment portal to complete payment, All
-                        quoted amount is in rand.
-                      </p>
-                    </div>
-
-                    <div className="mb-3 ">
-                      <h5 className="font-bold h5 m-0 py-2">
-                        12. Dispute Resolution
+                    <div className="">
+                      <h5 className="font-bold h5 m-0 py-2 cancellation">
+                        Cookies and Tracking Technologies
                       </h5>
-                      <p>
-                        *Any disputes arising from these terms and conditions
-                        will be resolved under the laws of South Africa and are
-                        subject to the exclusive jurisdiction of the courts of
-                        South Africa.
+                      <p className="mx-auto mb-2">
+                        Cookies: Our website uses cookies to improve your
+                        experience, remember your preferences, and analyze
+                        website usage. You may adjust your browser settings to
+                        refuse cookies; however, doing so may limit some
+                        functionalities. Analytics: We may use third-party
+                        analytics tools, such as Google Analytics, to better
+                        understand website usage and optimize our online
+                        presence. These tools collect anonymous information and
+                        do not identify individual users.
                       </p>
                     </div>
 
-                    <div className="mb-3 ">
-                      <h5 className="font-bold h5 m-0 py-2">
-                        13. Privacy Policy
+                    <div className="">
+                      <h5 className="font-bold h5 m-0 py-2 cancellation">
+                        International Data Transfers
                       </h5>
-                      <p>
-                        * No personal information will be disclosed to third
-                        parties without the user’s permission or due process,
-                        however, Dkaplan Sky center may share personal
-                        information with business partners. -Dkaplan Sky center
-                        gathers and will be in possession of the following
-                        private and personal information of users and passengers
-                        Information provided by the user voluntarily – this
-                        information is used to provide a better service to users
-                        By using this website the User consents to the
-                        following: -Dkaplan Sky center may use your personal
-                        information to communicate with the user from time to
-                        time. Users may indicate if they do not wish to receive
-                        such communications; - By using our services, you agree
-                        to the collection and use of your personal information
-                        in accordance with our privacy policy, which can be
-                        found.
+                      <p className="mx-auto mb-2">
+                        Data Processing Location: Your information may be
+                        transferred to and processed in countries outside your
+                        own. We ensure that any such transfers comply with
+                        applicable data protection laws and safeguard your data.
                       </p>
                     </div>
 
-                    <div className="mb-3 ">
-                      <h5 className="font-bold h5 m-0 py-2">
-                        14. Changes to Terms and Conditions
+                    <div className="">
+                      <h5 className="font-bold h5 m-0 py-2 cancellation">
+                        Children’s Privacy
                       </h5>
-                      <p>
-                        *We reserve the right to modify these Terms and
-                        Conditions at any time. Any changes will be posted on
-                        our website and will apply to all bookings made after
-                        the date of posting. This website is operated from the
-                        Republic of South Africa, and thus the South African Law
-                        governs the use or inability to use this website and
-                        these terms and conditions.
+                      <p className="mx-auto mb-2">
+                        Kayzoe Tours does not knowingly collect personal
+                        information from children under the age of 16 without
+                        parental consent. If you believe we have collected
+                        information from a child, please contact us to have it
+                        removed.
+                      </p>
+                    </div>
+
+                    <div className="">
+                      <h5 className="font-bold h5 m-0 py-2 cancellation">
+                        Changes to This Privacy Policy
+                      </h5>
+                      <p className="mx-auto mb-2">
+                        We may update this Privacy Policy from time to time to
+                        reflect changes in our practices or legal requirements.
+                        We will notify you of any significant updates.
+                      </p>
+                    </div>
+
+                    <div className="">
+                      <h5 className="font-bold h5 m-0 py-2 cancellation">
+                        Contact Us
+                      </h5>
+                      <p className="mx-auto mb-2">
+                        If you have questions, concerns, or requests related to
+                        this Privacy Policy or how we handle your information,
+                        please reach out to us:
                       </p>
                     </div>
                   </div>
@@ -246,4 +211,4 @@ const Privacy = () => {
   );
 };
 
-export default Privacy;
+export default PrivacyPolicy;

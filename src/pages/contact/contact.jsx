@@ -8,6 +8,7 @@ import BreadCrumbs from "../../components/breadcrumbs/breadcrumb";
 import { Card, Col, Container, Row } from "react-bootstrap";
 
 import ContactImage from "../../assets/images/new/contact-us.png";
+import ContactImage1 from "../../assets/images/banner/banner5.jpg";
 import { NavLink } from "react-router-dom";
 
 const ContactUs = () => {
@@ -67,31 +68,32 @@ const ContactUs = () => {
           <Row>
             <Col md="12">
               <h1 className="mb-2 h1 font-bold">
-                Let's connect and get to know each other
+                Have questions? Shoot us an Email
               </h1>
               <p className="body-text mt-1">
-                Contact us today by using any of the contact details below or
-                send us a message with our secure contact form.
+                Have a question or feedback? Please fill out the form to reach
+                us.
               </p>
             </Col>
           </Row>
           <Row className="py-5">
             <Col lg="4" md="6" className="mb-4 mb-lg-0">
-              <Card className="border-0 shadow rounded-3 mb-4">
+              <Card className="border-0 shadow-lg rounded-3 mb-4">
                 <Card.Body className="text-center">
                   <div className="d-flex justify-content-center align-item-center my-2">
-                    <div className="bg-info rounded-circle text-info shadow-sm bg-opacity-10 p-3 mb-2">
-                      <i className="bi bi-headset h3"></i>
+                    <div className="bg-succes rounded-circle text-success shadow-sm bg-opacity-10 p-3 mb-2">
+                      <i class="bi bi-earbuds"></i>
                     </div>
                   </div>
                   <Card.Title className="fw-bold h5">Call Us</Card.Title>
                   <p className="mb-3 body-text">
-                    Our customer services are available 24hrs to assist you
+                    Kayzoe Tour help desks are available 24hrs a day to assist
+                    you with your vacation plan
                   </p>
                   <div className="d-block justify-content-between">
                     <button type="button" className="btn btn-light me-2 btn-sm">
                       <i className="bi bi-phone me-1"></i>
-                      +27 63 461 9544
+                      078 338 4409
                     </button>
                   </div>
                 </Card.Body>
@@ -99,7 +101,7 @@ const ContactUs = () => {
             </Col>
 
             <Col lg="4" md="6" className="mb-4 mb-lg-0">
-              <Card className="border-0 shadow rounded-3 mb-4">
+              <Card className="border-0 shadow-lg rounded-3 mb-4 ">
                 <Card.Body className="text-center">
                   <div className="d-flex justify-content-center align-item-center my-2">
                     <div className="bg-danger rounded-circle text-danger shadow-sm bg-opacity-10 p-3 mb-2">
@@ -108,13 +110,13 @@ const ContactUs = () => {
                   </div>
                   <Card.Title className="fw-bold h5">Email Us</Card.Title>
                   <p className="mb-3 body-text">
-                    Send us email when you need help planning or booking your
-                    next travel
+                    Please tell us how we can help, send your request for
+                    support to{" "}
                   </p>
                   <div className="d-block justify-content-between">
                     <button type="button" className="btn btn-light me-2 btn-sm">
                       <i className="bi bi-envelope me-2"></i>
-                      booking@dkapskycenter.co.za
+                      help@kayzoetours.co.za
                     </button>
                   </div>
                 </Card.Body>
@@ -122,7 +124,7 @@ const ContactUs = () => {
             </Col>
 
             <Col lg="4" md="6" className="mb-4 mb-lg-0">
-              <Card className="border-0 shadow rounded-3 mb-4">
+              <Card className="border-0 shadow-lg rounded-3 mb-4">
                 <Card.Body className="text-center">
                   <div className="d-flex justify-content-center align-item-center my-2">
                     <div className="bg-warning rounded-circle text-warning shadow-sm bg-opacity-10 p-3 mb-2">
@@ -131,11 +133,11 @@ const ContactUs = () => {
                   </div>
                   <Card.Title className="fw-bold h5">Social Media</Card.Title>
                   <p className="mb-3 body-text">
-                    Feel free to follow dkaplan sky center on facebook !
+                    Follow Kayzoe Tours on facebook
                   </p>
                   <NavLink
                     className="d-block justify-content-between"
-                    to="https://www.facebook.com/dkapskycenter"
+                    to="https://www.facebook.com/kayzoetours/"
                   >
                     <button type="button" className="btn btn-light me-2 btn-sm">
                       <i className="bi bi-facebook me-2 "></i>
@@ -148,16 +150,16 @@ const ContactUs = () => {
           <Row className="py-5 align-items-center">
             <Col xl="6" md="6" className="d-none d-md-block">
               <img
-                src={ContactImage}
+                src={ContactImage1}
                 alt="contact"
                 className="img-fluid me-3"
               />
             </Col>
 
             <Col xl="6" md="6" className="contact-section py-5">
-              <Card className="bg-light p-4 border-0 shadow-sm">
+              <Card className="bg-light p-4 border-0 shadow-lg">
                 <div className="form-box">
-                  <h1 className="h3 mb-4">Send us message</h1>
+                  <h1 className="h3 mb-4">Contact us today</h1>
                   <form onSubmit={handleSubmit} className="row g-3">
                     <div className="col-md-6 px-4 gy-3">
                       <label htmlFor="fullNames" className="form-label">

@@ -15,7 +15,10 @@ import PhotoGalleries from "./pages/photoGallery/photoGallery";
 import Quote from "./pages/quote/quote";
 import ToursPage from "./pages/tours/tour";
 import TourDetails from "./pages/tours/tourDetails";
-import Privacy from "./pages/privacy/privacy";
+
+import Cancellation from "./pages/cancellation/cancellation";
+import TermsCondition from "./pages/terms/terms";
+import PrivacyPolicy from "./pages/privacy/privacy";
 
 function App() {
   return (
@@ -33,7 +36,9 @@ function App() {
         <Route path="/photo-galleries" element={<PhotoGalleries />} />
         <Route path="/quote" element={<Quote />} />
         <Route path="/photo-galleries" element={<PhotoGalleries />} />
-        <Route path="/terms-condition" element={<Privacy />} />
+        <Route path="/terms-condition" element={<TermsCondition />} />
+        <Route path="/cancellation" element={<Cancellation />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
 
       <UseFooter />

@@ -39,6 +39,14 @@ export const UseFooter = () => {
                 </li>
 
                 <li>
+                  <NavLink to="privacy-policy">Privacy & Policy</NavLink>
+                </li>
+
+                <li>
+                  <NavLink to="cancellation">Cancellation</NavLink>
+                </li>
+
+                <li>
                   <NavLink to="terms-condition">Terms & Condition</NavLink>
                 </li>
               </ul>
@@ -47,17 +55,17 @@ export const UseFooter = () => {
               <h4>Contact us</h4>
               <ul className="row">
                 <li>
-                  <p>149 Pritchard St,</p>
-                  <p>Johannesburg ZA 2001</p>
+                  <p>87 9TH Street,</p>
+                  <p>Orange Grove, Gauteng 2192</p>
                 </li>
                 <li>
-                  <p>booking@dkapskycenter.co.za</p>
-                  <p>+27 63 461 9544</p>
+                  <p>help@kayzoetours.co.za</p>
+                  <p>078 338 4409</p>
                 </li>
               </ul>
             </div>
             <div className="footer-col">
-              <h4>Dkaplan Sky Center</h4>
+              <h4>KayZoe Tours</h4>
               <ul>
                 <li>
                   <NavLink to="tours">tours</NavLink>
@@ -77,7 +85,7 @@ export const UseFooter = () => {
               <h4>follow us</h4>
               <NavLink
                 className="social-links"
-                to="https://www.facebook.com/dkapskycenter"
+                to="https://www.facebook.com/kayzoetours/"
               >
                 <i className="bi bi-facebook facebook"></i>
               </NavLink>
@@ -86,7 +94,7 @@ export const UseFooter = () => {
 
           <p className="right">
             {" "}
-            &copy;2024 Dkaplan Sky Center. All rights reserved{" "}
+            &copy;2024 KayZoe Tours. All rights reserved{" "}
           </p>
         </div>
       </div>

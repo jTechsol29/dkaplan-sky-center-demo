@@ -1,23 +1,27 @@
 import React from "react";
 
-import GalleryImg1 from "../../assets/images/gallery/g1.jpg";
-import GalleryImg3 from "../../assets/images/gallery/g3.jpg";
-import GalleryImg4 from "../../assets/images/gallery/g4.jpg";
-import GalleryImg6 from "../../assets/images/gallery/g6.jpg";
-import GalleryImg7 from "../../assets/images/gallery/g7.jpg";
+import GalleryImg1 from "../../assets/images/gallery/banner1.jpg";
+import GalleryImg3 from "../../assets/images/gallery/banner2.jpg";
+import GalleryImg4 from "../../assets/images/gallery/banner3.jpg";
+import GalleryImg6 from "../../assets/images/gallery/banner27.jpg";
+import GalleryImg7 from "../../assets/images/gallery/banner5.jpg";
 
-import GalleryImg2 from "../../assets/images/tourDetails/GardenCourt-Sandton.jpg";
-import GalleryImg5 from "../../assets/images/tourDetails/GardenCourt-Sandton1.jpg";
-import GalleryImg8 from "../../assets/images/tourDetails/GardenCourt-Sandton10.jpg";
-import GalleryImg9 from "../../assets/images/tourDetails/GardenCourt-Sandton11.jpg";
-import GalleryImg10 from "../../assets/images/tourDetails/GardenCourt-Sandton12.jpg";
+import GalleryImg2 from "../../assets/images/gallery/banner6.jpg";
+import GalleryImg5 from "../../assets/images/gallery/banner7.jpg";
+import GalleryImg8 from "../../assets/images/gallery/banner8.jpg";
+import GalleryImg9 from "../../assets/images/gallery/banner9.jpg";
+import GalleryImg10 from "../../assets/images/gallery/banner10.jpg";
 
-import GalleryImg12 from "../../assets/images/tourDetails/GardenCourt-Sandton14.jpg";
-import GalleryImg13 from "../../assets/images/tourDetails/GardenCourt-Sandton2.jpg";
-import GalleryImg14 from "../../assets/images/tourDetails/GardenCourt-Sandton3.jpg";
-import GalleryImg15 from "../../assets/images/tourDetails/GardenCourt-Sandton4.jpg";
-import GalleryImg16 from "../../assets/images/tourDetails/GardenCourt-Sandton5.jpg";
-import GalleryImg17 from "../../assets/images/tourDetails/GardenCourt-Sandton6.jpg";
+import GalleryImg12 from "../../assets/images/gallery/banner11.jpg";
+import GalleryImg13 from "../../assets/images/gallery/banner12.jpg";
+import GalleryImg14 from "../../assets/images/gallery/banner13.jpg";
+import GalleryImg15 from "../../assets/images/gallery/banner14.jpg";
+import GalleryImg16 from "../../assets/images/gallery/banner34.jpg";
+import GalleryImg17 from "../../assets/images/gallery/banner16.jpg";
+import GalleryImg20 from "../../assets/images/gallery/banner32.jpg";
+import GalleryImg21 from "../../assets/images/gallery/banner38.jpg";
+import GalleryImg22 from "../../assets/images/gallery/banner19.jpg";
+import GalleryImg23 from "../../assets/images/gallery/banner20.jpg";
 
 import "../gallery/gallery.css";
 
@@ -187,6 +191,50 @@ const Gallery = () => {
           <div className="thumbnail">
             <div className="image-container">
               <img src={GalleryImg17} alt="" className="image" />
+              <div className="overlay">
+                <p className="caption">Caption here</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-lg-4 col-sm-6">
+          <div className="thumbnail">
+            <div className="image-container">
+              <img src={GalleryImg20} alt="" className="image" />
+              <div className="overlay">
+                <p className="caption">Caption here</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-lg-4 col-sm-6">
+          <div className="thumbnail">
+            <div className="image-container">
+              <img src={GalleryImg21} alt="" className="image" />
+              <div className="overlay">
+                <p className="caption">Caption here</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-lg-4 col-sm-6">
+          <div className="thumbnail">
+            <div className="image-container">
+              <img src={GalleryImg22} alt="" className="image" />
+              <div className="overlay">
+                <p className="caption">Caption here</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-lg-4 col-sm-6">
+          <div className="thumbnail">
+            <div className="image-container">
+              <img src={GalleryImg23} alt="" className="image" />
               <div className="overlay">
                 <p className="caption">Caption here</p>
               </div>

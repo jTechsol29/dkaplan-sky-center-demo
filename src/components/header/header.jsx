@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Container, Navbar, Offcanvas, Nav } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import "../header/header.css";
-import CompanyLogo from "../../assets/images/logo/logo.png";
+import CompanyLogo from "../../assets/images/logo/kayzoe-logo.png";
 
 export const Header = () => {
   const [open, setOpen] = useState(false);
@@ -58,7 +58,7 @@ export const Header = () => {
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
                 <NavLink className="nav-link" to="/">
-                  Home
+                  HOME
                 </NavLink>
                 <NavLink className="nav-link" to="about-us">
                   ABOUT US
@@ -67,11 +67,11 @@ export const Header = () => {
                   TOURS
                 </NavLink>
 
-                <NavLink className="nav-link text-dark" to="packages">
-                  PACKAGES
-                </NavLink>
-                <NavLink className="nav-link text-dark" to="/destinations">
+                <NavLink className="nav-link text-dark" to="destinations">
                   DESTINATIONS
+                </NavLink>
+                <NavLink className="nav-link text-dark" to="/packages">
+                  PACKAGES
                 </NavLink>
 
                 <NavLink className="nav-link" to="photo-galleries">

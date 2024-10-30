@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import "../about/about.css";
 import BreadCrumbs from "../../components/breadcrumbs/breadcrumb";
 import { Card, Col, Container, Row } from "react-bootstrap";
-import AboutImage from "../../assets/images/about/aboutimg.png";
+import AboutImage from "../../assets/images/banner/banner20.jpg";
 import Icons1 from "../../assets/images/icons/destination.png";
 import Icons2 from "../../assets/images/icons/best-price.png";
 import Icons3 from "../../assets/images/icons/quick.png";
@@ -29,57 +29,42 @@ const AboutUs = () => {
                   />
                   <div className="about-image-content position-absolute top-50 end-0 p-md-4 p-3 rounded-5 shadow-sm">
                     <h3 className="h2 fw-bold text-white">
-                      NO DOUBT WE ARE RATED BEST !
+                      WE HAVE THE BEST PACKAGES THAT SUIT YOUR NEED
                     </h3>
                   </div>
                 </div>
               </div>
               <h2 className="h2 font-bold pt-4 pb-2">
-                NO DOUBT WE ARE RATED BEST !
+                WE HAVE THE BEST PACKAGES THAT SUIT YOUR NEED
               </h2>
               <div className="gy-3">
-                <p className="body-text mb-3">About Dkaplan Sky Center</p>
-                <p className="body-text mb-3">
-                  At Dkaplan Sky Center, we believe that travel is more than
-                  just visiting a destination—it’s about creating unforgettable
-                  experiences that last a lifetime. As a trusted and innovative
-                  travel agency, we specialize in crafting personalized journeys
-                  that cater to your unique interests and preferences. Whether
-                  you're seeking a relaxing beach getaway, an adventurous trek
-                  through mountains, or an immersive cultural exploration, we
-                  are here to make your travel dreams a reality.
+                <p className=" mb-3 font-bold h3 text-success">
+                  About Kayzoe Tours
                 </p>
                 <p className="body-text mb-3">
-                  Our team of travel experts brings years of experience and
-                  passion for discovering new places. We work closely with our
-                  clients to understand their needs, curating tailored
-                  itineraries that ensure every trip is seamless and
-                  unforgettable. From booking flights and accommodations to
-                  offering insider tips on hidden gems, we handle every detail,
-                  so you can focus on enjoying your journey.
-                </p>
-                <p className="body-text mb-3">
-                  At Dkaplan Sky Center, we take pride in providing exceptional
-                  customer service and unparalleled attention to detail. With a
-                  global network of trusted partners, we ensure that your
-                  experience is not only smooth and hassle-free but also full of
-                  memorable moments.
-                </p>
-
-                <p className="body-text mb-3">
-                  Whether you're planning a family vacation, a romantic getaway,
-                  a business trip, or a solo adventure, Dkaplan Sky Center is
-                  your ultimate travel partner. Let us guide you through the sky
-                  to your dream destination.
-                </p>
-
-                <p className="body-text mb-3">
-                  Your adventure begins with us! Explore with us!
+                  Kayzoe Tours redefines travel with an unmatched dedication to
+                  quality, adventure, and discovery. Known for its exceptional
+                  service and attention to detail, Kayzoe Tours creates journeys
+                  that are as unique as each traveler. From exotic destinations
+                  to local hidden treasures, Kayzoe Tours ensures every trip is
+                  seamless, safe, and infused with authentic experiences. With a
+                  team of passionate travel experts, Kayzoe Tours goes the extra
+                  mile to turn travel dreams into reality, providing travelers
+                  with a journey that’s memorable, inspiring, and completely
+                  worry-free. Kayzoe Tours stands out as a premier travel agency
+                  dedicated to delivering unforgettable travel experiences that
+                  go beyond the ordinary, Kayzoe Tours prides itself on blending
+                  adventure, relaxation, and cultural immersion, making every
+                  journey a truly enriching experience, Discover the world with
+                  Kayzoe Tours—where every moment is crafted to perfection.With
+                  Kayzoe Tours, travelers don’t just see the world—they connect
+                  with it, creating memories that last a lifetime. Kayzoe Tours
+                  has been delivering since 2018, Discover, Dream, Depart.
                 </p>
               </div>
             </Col>
             <Col md="4">
-              <Card className="border-0 shadow-sm rounded-3 mb-4">
+              <Card className="border-0 shadow-lg rounded-3 mb-4">
                 <Card.Body className="text-center">
                   <div className="d-flex justify-content-center align-item-center my-2">
                     <div className="rounded-circle bg-light shadow-sm bg-opacity-10 p-2">
@@ -88,14 +73,15 @@ const AboutUs = () => {
                   </div>
                   <Card.Title className="fw-bold h5">
                     {" "}
-                    50+ Destinations{" "}
+                    80 Plus Destinations To Tour{" "}
                   </Card.Title>
                   <p className="mb-2 body-text">
-                    We offer over 50 destinations for your next travel.
+                    Kayzoe tour have over 80 destinations to explore this
+                    festive season
                   </p>
                 </Card.Body>
               </Card>
-              <Card className="border-0 shadow-sm rounded-3 mb-4">
+              <Card className="border-0 shadow-lg rounded-3 mb-4">
                 <Card.Body className="text-center">
                   <div className="d-flex justify-content-center align-item-center my-2">
                     <div className="rounded-circle bg-light shadow-sm bg-opacity-10 p-2">
@@ -104,15 +90,15 @@ const AboutUs = () => {
                   </div>
                   <Card.Title className="fw-bold h5">
                     {" "}
-                    Best Price In The Industry
+                    Best Price Guaranteed When Booking With Us
                   </Card.Title>
                   <p className="mb-2 body-text">
-                    We have flexible prices for any travel package of your
-                    choice.
+                    We guarantee that booking through Kayzoe Tour will be
+                    cheaper than booking directly with other travel agency.
                   </p>
                 </Card.Body>
               </Card>
-              <Card className="border-0 shadow-sm rounded-3 mb-4">
+              <Card className="border-0 shadow-lg rounded-3 mb-4">
                 <Card.Body className="text-center">
                   <div className="d-flex justify-content-center align-item-center my-2">
                     <div className="rounded-circle bg-light shadow-sm bg-opacity-10 p-2">
@@ -121,11 +107,11 @@ const AboutUs = () => {
                   </div>
                   <Card.Title className="fw-bold h5">
                     {" "}
-                    Super Fast & Easy To Book{" "}
+                    Quick & Easy To Book With Us
                   </Card.Title>
                   <p className="mb-2 body-text">
-                    At Dkaplan sky center we provide the easiest and fastest
-                    online platform that suits your travel booking.
+                    Take advantage of Kayzoe Tour flexible online platform to
+                    book your vacation today.
                   </p>
                 </Card.Body>
               </Card>
